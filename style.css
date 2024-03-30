@@ -1,0 +1,36 @@
+.bgc{
+    background-color: red;
+    margin-bottom: 6px;
+    width: 150px;
+    text-align: right;
+    padding: 5px;
+    border-radius:0px 20px 20px 0px ;
+    transform: translate(-135px);
+    transition:.70s;
+}
+.bgc i{
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    transition: .5s;
+
+
+}
+.bgc:hover{
+    transform: translate(-10px);
+
+    
+}
+
+.bgc:hover i{
+    transform: rotate(360deg);
+}
+.bgc label{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
